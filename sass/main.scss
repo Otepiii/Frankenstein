@@ -24,6 +24,11 @@ body {
   height: auto;
   margin-bottom: 5rem;
   border-radius: 1px;
+  box-shadow: inset 0 0 3px 0 #333;
+}
+
+.header:hover {
+  animation: float 0.8s forwards;
 }
 
 .day1 {
@@ -33,6 +38,7 @@ body {
   left: 25%;
   height: 60vh;
   text-align: center;
+  box-shadow: inset 0 0 4px 0 #333;
 }
 
 .day1 .title {
@@ -40,19 +46,18 @@ body {
 }
 
 .day1:hover {
-  transform: translateY(2px);
-  animation: float 0.5s forwards;
+  animation: float 1s forwards;
 }
 
 @keyframes float {
   0% {
     transform: translateY(0px);
-    box-shadow: 0 #333333;
+    box-shadow: 0 0 0 0 #333333, inset 0 0 4px 0 #333;
   }
 
   100% {
-    transform: translateY(-3px);
-    box-shadow: 0 4px 15px 4px #333333;
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px 4px #333333, inset 0 0 8px 0 #333;
   }
 }
 

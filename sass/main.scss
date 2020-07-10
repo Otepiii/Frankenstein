@@ -5,8 +5,13 @@ body {
   line-height: 1.7;
   color: #333333;
   padding: 3rem;
-  background-image: url("../img/cork-board.png");
+  background: url("../img/cork-board.png");
   font-family: "Permanent Marker", cursive;
+}
+
+.show-modal {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../img/cork-board.png");
 }
 
 .header {
@@ -149,7 +154,7 @@ body {
 
   .day1 .button {
     width: 30%;
-    left: 36%;
+    left: 34%;
   }
 
   .modal {

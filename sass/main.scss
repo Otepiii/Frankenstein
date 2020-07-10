@@ -1,0 +1,111 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333333;
+  padding: 3rem;
+  background-image: url("../img/cork-board.png");
+  font-family: "Permanent Marker", cursive;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  background-image: url("../img/old_mathematics_@2X.png");
+  padding: 5px;
+  width: 30%;
+  left: 36%;
+  height: auto;
+  margin-bottom: 5rem;
+  border-radius: 1px;
+}
+
+.day1 {
+  position: relative;
+  background-image: url("../img/linedpaper_@2x.png");
+  width: 50%;
+  left: 25%;
+  height: 60vh;
+  text-align: center;
+}
+
+.day1 .title {
+  font-size: 3.4rem;
+}
+
+.day1:hover {
+  transform: translateY(2px);
+  animation: float 0.5s forwards;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+    box-shadow: 0 #333333;
+  }
+
+  100% {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px 4px #333333;
+  }
+}
+
+.day1 .button {
+  position: relative;
+  background: url(../img/sandpaper.png);
+  width: 10%;
+  height: auto;
+  padding: 6px;
+  border-radius: 0.8rem;
+  top: 25%;
+  left: 45%;
+  color: #5a5a5a;
+}
+
+.day1 .button:hover {
+  color: #ffffff;
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px 1px #646464;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+    url(../img/sandpaper.png);
+}
+
+.modal {
+  position: relative;
+  padding: 20px 18px;
+  display: none;
+  background: url(../img/paper_2_@2X.png);
+  border-radius: 10px;
+  height: 12vh;
+  text-align: center;
+  top: -40vh;
+  width: 40%;
+  left: 29%;
+  animation: appear 1s forwards;
+  box-shadow: 0 5px 10px 0 #333;
+  font-size: 2rem;
+}
+
+.modal span {
+  position: relative;
+  text-align: right;
+  justify-content: right;
+  float: right;
+}
+
+.close:hover {
+  cursor: pointer;
+  color: #ffffff;
+}
+
+@keyframes appear {
+  0% {
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(-50px);
+    opacity: 1;
+  }
+}

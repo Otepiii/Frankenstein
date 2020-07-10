@@ -1,0 +1,23 @@
+{
+  "name": "frankenstein",
+  "version": "1.0.0",
+  "description": "A collection of features and projects to show progress in a 30 day period",
+  "main": "button.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Otepiii/Frankenstein.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Otepiii/Frankenstein/issues"
+  },
+  "homepage": "https://github.com/Otepiii/Frankenstein#readme",
+  "dependencies": {
+    "compile-sass": "^1.1.0"
+  }
+}

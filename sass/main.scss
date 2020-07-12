@@ -133,7 +133,7 @@ body {
     left: 28%;
   }
 
-  .day1 {
+  .day1 .day2 {
     width: 80%;
     left: 11%;
   }
@@ -152,7 +152,7 @@ body {
     padding: 1px;
   }
 
-  .day1 {
+  .day1 .day2 {
     width: 100%;
     left: 3%;
   }
@@ -217,7 +217,8 @@ body {
 .input-box {
   position: absolute;
   bottom: 5%;
-  left: 40.5%;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
 
 .day2 input {

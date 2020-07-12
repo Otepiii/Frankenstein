@@ -34,8 +34,8 @@ body {
 .day1 {
   position: relative;
   background-image: url("../img/linedpaper_@2x.png");
-  width: 50%;
-  left: 25%;
+  width: 95%;
+  left: 3%;
   height: 60vh;
   text-align: center;
   box-shadow: inset 0 0 3px 0 #333;
@@ -64,7 +64,7 @@ body {
 .day1 .button {
   position: relative;
   background: url(../img/sandpaper.png);
-  width: 10%;
+  width: fit-content;
   height: auto;
   padding: 6px;
   border-radius: 0.8rem;
@@ -90,8 +90,8 @@ body {
   height: auto;
   text-align: center;
   top: -40vh;
-  width: 40%;
-  left: 29%;
+  width: 80%;
+  left: 9%;
   animation: appear 1s forwards;
   box-shadow: 0 5px 10px 0 #333;
   font-size: 2rem;
@@ -120,60 +120,60 @@ body {
   }
 }
 
-@media (max-width: 1500px) {
-  .day1 .button {
-    width: 25%;
-    left: 36%;
-  }
-}
+// @media (max-width: 1500px) {
+//   .day1 .button {
+//     width: 25%;
+//     left: 36%;
+//   }
+// }
 
-@media (max-width: 830px) {
-  .header {
-    width: 45%;
-    left: 28%;
-  }
+// @media (max-width: 830px) {
+//   .header {
+//     width: 45%;
+//     left: 28%;
+//   }
 
-  .day1 .day2 {
-    width: 80%;
-    left: 11%;
-  }
+//   .day1 .day2 {
+//     width: 80%;
+//     left: 11%;
+//   }
 
-  .day1 .button {
-    width: 25%;
-    left: 36%;
-  }
-}
+//   .day1 .button {
+//     width: 25%;
+//     left: 36%;
+//   }
+// }
 
-@media (max-width: 590px) {
-  .header {
-    width: auto;
-    left: 1%;
-    height: auto;
-    padding: 1px;
-  }
+// @media (max-width: 590px) {
+//   .header {
+//     width: auto;
+//     left: 1%;
+//     height: auto;
+//     padding: 1px;
+//   }
 
-  .day1 .day2 {
-    width: 100%;
-    left: 3%;
-  }
+//   .day1 .day2 {
+//     width: 100%;
+//     left: 3%;
+//   }
 
-  .day1 .button {
-    width: 30%;
-    left: 34%;
-  }
+//   .day1 .button {
+//     width: 30%;
+//     left: 34%;
+//   }
 
-  .modal {
-    width: 100%;
-    left: 0%;
-  }
-}
+//   .modal {
+//     width: 100%;
+//     left: 0%;
+//   }
+// }
 
 // Day 2
 .day2 {
   position: relative;
   background-image: url("../img/linedpaper_@2x.png");
-  width: 50%;
-  left: 25%;
+  width: 95%;
+  left: 3%;
   height: 60vh;
   margin-top: 9rem;
   text-align: center;

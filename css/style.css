@@ -103,7 +103,7 @@ body {
   background-image: url("../img/linedpaper_@2x.png");
   width: 95%;
   left: 3%;
-  height: 80vh;
+  height: 87vh;
   margin-top: 9rem;
   text-align: center;
   box-shadow: inset 0 0 3px 0 #333; }
@@ -154,3 +154,8 @@ body {
 
 .gif-container img {
   margin: 0; }
+
+@media (max-width: 750px) {
+  .day2 .gif-container {
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem; } }

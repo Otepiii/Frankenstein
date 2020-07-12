@@ -54,7 +54,8 @@ body {
   padding: 6px;
   border-radius: 0.8rem;
   top: 25%;
-  left: 45%;
+  left: 50%;
+  transform: translate(-50%, 0%);
   color: #5a5a5a; }
 
 .day1 .button:hover {
@@ -125,7 +126,8 @@ body {
   padding: 6px;
   border-radius: 0.8rem;
   top: 25%;
-  left: 33.5%;
+  left: 50%;
+  transform: translate(-50%, 0%);
   color: #5a5a5a; }
 
 .day2 .button:hover {

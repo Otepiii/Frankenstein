@@ -61,7 +61,6 @@ body {
 
 .day1 .button:hover {
   color: #ffffff;
-  transform: translateY(-1px);
   box-shadow: 0 1px 2px 1px #646464;
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(../img/sandpaper.png); }
 
@@ -133,7 +132,6 @@ body {
 
 .day2 .button:hover {
   color: #ffffff;
-  transform: translateY(-1px);
   box-shadow: 0 1px 2px 1px #646464;
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(../img/sandpaper.png); }
 
@@ -153,7 +151,13 @@ body {
   text-align: center; }
 
 .gif-container img {
-  margin: 0; }
+  margin: 0;
+  width: 90%; }
+
+@media (min-width: 1028px) {
+  .gif-container img {
+    margin: 0;
+    width: 25%; } }
 
 @media (max-width: 750px) {
   .day2 .gif-container {

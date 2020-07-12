@@ -28,7 +28,7 @@ function getGif(query) {
 }
 
 function displayGifs(gif) {
-  let gifToShow = gif.data[0].images.fixed_width.url
+  let gifToShow = gif.data[0].images.original.url
   let gifContainer = document.querySelector(".gif-container")
 
   gifContainer.innerHTML = ` <img src="${gifToShow}" alt=""> `

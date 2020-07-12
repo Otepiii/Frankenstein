@@ -152,14 +152,14 @@ body {
 
 .gif-container img {
   margin: 0;
-  width: 90%; }
+  width: 78%; }
 
-@media (min-width: 1028px) {
+@media (min-width: 838px) {
   .gif-container img {
     margin: 0;
-    width: 25%; } }
+    width: 35%; } }
 
-@media (max-width: 750px) {
+@media (max-width: 744px) {
   .day2 .gif-container {
     margin-top: 1.5rem;
     margin-bottom: 2.5rem; } }

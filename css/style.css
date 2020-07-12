@@ -16,8 +16,9 @@ body {
   text-align: center;
   background-image: url("../img/old_mathematics_@2X.png");
   padding: 5px;
-  width: 30%;
-  left: 36%;
+  width: fit-content;
+  left: 50%;
+  transform: translate(-50%, 0%);
   height: auto;
   margin-bottom: 5rem;
   border-radius: 1px;

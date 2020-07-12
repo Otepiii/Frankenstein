@@ -32,7 +32,7 @@ body {
   text-align: center;
   box-shadow: inset 0 0 3px 0 #333; }
 
-.day1 .title {
+.title {
   font-size: 3.4rem; }
 
 .day1:hover {
@@ -127,3 +127,58 @@ body {
   .modal {
     width: 100%;
     left: 0%; } }
+
+.day2 {
+  position: relative;
+  background-image: url("../img/linedpaper_@2x.png");
+  width: 50%;
+  left: 25%;
+  height: 60vh;
+  margin-top: 9rem;
+  text-align: center;
+  box-shadow: inset 0 0 3px 0 #333; }
+
+.day2:hover {
+  animation: float 1s forwards; }
+
+.day2-title {
+  font-size: 1.5rem;
+  font-weight: bold; }
+
+.day2 .gif-container {
+  margin-top: 3rem;
+  margin-bottom: 5rem; }
+
+.day2 .button {
+  position: relative;
+  background: url(../img/sandpaper.png);
+  width: fit-content;
+  height: auto;
+  padding: 6px;
+  border-radius: 0.8rem;
+  top: 25%;
+  left: 33.5%;
+  color: #5a5a5a; }
+
+.day2 .button:hover {
+  color: #ffffff;
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px 1px #646464;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(../img/sandpaper.png); }
+
+.input-box {
+  position: absolute;
+  bottom: 5%;
+  left: 40.5%; }
+
+.day2 input {
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #9b9b9b;
+  margin: 0 0 1rem 0;
+  height: 2rem;
+  font-family: "Permanent Marker", cursive;
+  text-align: center; }
+
+.gif-container img {
+  margin: 0; }
